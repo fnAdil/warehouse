@@ -15,3 +15,4 @@ It consists of 3 parts (for now).
   
   
   
+<img width="630" alt="Screenshot 2022-09-14 at 15 54 49" src="https://user-images.githubusercontent.com/75196423/190159477-000b05db-e7f3-48fa-9760-8ebc0826efbc.png">
