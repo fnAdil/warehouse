@@ -2,7 +2,7 @@
 
 Warehouse project is an intermedia level microservices app using Java Spring Boot.
 
-It consist of theree parts (for now).
+It consists of theree parts (for now).
 
 1 - Product Service:
   - Captures products in MongoDB 
