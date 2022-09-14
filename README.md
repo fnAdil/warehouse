@@ -1,6 +1,6 @@
 # warehouse
 
-Warehouse project is a intermedia level microservices app with Java Spring Boot.
+Warehouse project is an intermedia level microservices app using Java Spring Boot.
 
 It consist of theree parts (for now).
 
