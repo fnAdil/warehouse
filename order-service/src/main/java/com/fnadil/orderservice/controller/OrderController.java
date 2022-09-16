@@ -1,7 +1,6 @@
 package com.fnadil.orderservice.controller;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,18 +21,12 @@ public class OrderController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public String placeOrder(@RequestBody OrderRequest orderRequest){
+    public String placeOrder(@RequestBody OrderRequest orderRequest) {
 
         orderService.placeOrder(orderRequest);
-        return "";
+        return "Order Placed Succesfully!";
     }
 
-    @GetMapping
-    @ResponseStatus(HttpStatus.OK)
-    public String getOrder(){
+  
 
-       
-        return "asdas";
-    }
-    
 }
