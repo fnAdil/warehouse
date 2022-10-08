@@ -36,7 +36,7 @@ public class OrderService {
         // call inventory service here
         InventoryResponse[] inventoryResponses = webClientBuilder.build().get()
                 .uri("http://inventory-service/api/inventory",
-                        (uriBuilder) -> uriBuilder.queryParam("skuCoce", skuCodes).build())
+                        (uriBuilder) -> uriBuilder.queryParam("skuCode", skuCodes).build())
                 .retrieve().bodyToMono(InventoryResponse[].class).block();
 
 
